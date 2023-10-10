@@ -12,3 +12,8 @@ Here are the different aspects of this project:
 The new package is tested with Windows 10 + WSL 2 (Ubuntu 22.04) + Singular 4.2.1 + Mathematica 12, and all the functions seem to be working correctly.
 
 You may find demos at https://www3.risc.jku.at/research/combinat/software/Singular/demo.nb and https://www3.risc.jku.at/research/combinat/software/Singular/demo.nb.pdf
+
+
+# Install
+1. Copy Singular.m to somewhere Mathematica can find. You may type command `$Path` in a new notebook to see the default paths that Mathematica looks for packages.
+2. Use command ``Needs["Singular`"]`` to import the package.
