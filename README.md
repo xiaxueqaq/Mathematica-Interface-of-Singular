@@ -17,3 +17,5 @@ You may find demos at https://www3.risc.jku.at/research/combinat/software/Singul
 # Install
 1. Copy Singular.m to somewhere Mathematica can find. You may type command `$Path` in a new notebook to see the default paths that Mathematica looks for packages.
 2. Use command ``Needs["Singular`"]`` to import the package.
+
+Notice: This is only an interface, you need to install the Singular yourself. In Windows 10 + WSL, this can be done by `bash sudo apt-get install singular`. For information about Singular, please refer to the official website https://www.singular.uni-kl.de/.
